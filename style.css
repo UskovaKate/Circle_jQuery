@@ -1,0 +1,55 @@
+fieldset {
+      border: 0;
+      margin-left: 300px;
+    }
+    label {
+      display: block;
+      margin: 20px 0 0 0;
+    }
+
+    #circle {
+      float: left;
+      background: yellow;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+	.editors-buttons{
+		display:none;
+	}
+
+	    .shape {
+      margin-left: 4em;
+      margin-top: 2.5em;
+      height: 8em;
+      width: 8em;
+      box-shadow: 4px 4px 8px;
+      color: #ccc;
+      background-repeat: no-repeat;
+      background-size: 90%;
+      background-position: 50%;
+    }
+    .circle, .pill {
+      border-radius: 8em;
+    }
+    .pill, .rectangle {
+      width: 16em;
+    }
+    .square, .circle {
+      margin-left: 9em;
+    }
+    .border {
+      border: 2px solid #333333;
+    }
+    .toggles {
+      width: 200px;
+    }
+    .toggle-wrap, .shape {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .controls {
+      background: #ccc;
+      padding: 1em;
+      display: inline-block;
+    }

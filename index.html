@@ -1,0 +1,82 @@
+<div class="results-container">
+<h3>Results:</h3>
+	<div id="results29"><link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="javascript.js"></script>
+  <title>Cyrcle_jQuery</title>
+<div class="demo">
+
+<form action="#">
+
+  <div id="circle"></div>
+
+  <fieldset>
+    <label for="radius-button">Circle radius</label>
+    <select name="radius" id="radius" style="display: none;">
+      <option value="50">50px</option>
+      <option value="100">100px</option>
+      <option value="150" selected="selected">150px</option>
+      <option value="200">200px</option>
+      <option value="250">250px</option>
+    </select>
+
+    <label for="color-button">Circle color</label>
+    <select name="color" id="color" style="display: none;">
+      <option value="black">Black</option>
+      <option value="red">Red</option>
+      <option value="yellow" selected="selected">Yellow</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </select>
+  </fieldset>
+
+</form>
+
+
+
+<h3>Results:</h3>
+
+<div class="controls">
+  <div class="brand-wrap">
+    <h3>Select a color</h3>
+    <div class="brand ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix" role="toolbar">
+      <label for="brand-jquery" class="ui-button ui-widget ui-checkboxradio-radio-label ui-controlgroup-item ui-checkboxradio-label ui-corner-left"><span class="ui-checkboxradio-icon-space"> </span>Blue</label>
+      <input type="radio" name="brand" id="brand-jquery" data-background-color="#0769AD" data-color="#7ACEF4" data-background-image="url(images/jquery.png)" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="brand-jquery-ui" class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon-space"> </span>Red</label>
+      <input type="radio" name="brand" id="brand-jquery-ui" data-background-color="red" data-color="#FAA523" data-background-image="url(images/jquery-ui.png)" checked="" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="brand-jquery-mobile" class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item ui-checkboxradio-checked ui-state-active"><span class="ui-checkboxradio-icon-space"> </span>Green</label>
+      <input type="radio" name="brand" id="brand-jquery-mobile" data-background-color="green" data-color="red" data-background-image="url(images/jquery-mobile.png)" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="brand-sizzle" class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon-space"> </span>Yellow</label>
+      <input type="radio" name="brand" id="brand-sizzle" data-background-color="yellow" data-color="yellow" data-background-image="url(images/sizzle.png)" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="brand-qunit" class="ui-button ui-widget ui-checkboxradio-radio-label ui-controlgroup-item ui-checkboxradio-label ui-corner-right"><span class="ui-checkboxradio-icon-space"> </span>Black</label>
+      <input type="radio" name="brand" id="brand-qunit" data-background-color="black" data-color="#9C3493" data-background-image="url(images/qunit.png)" class="ui-checkboxradio ui-helper-hidden-accessible">
+    </div>
+  </div>
+  <div class="shape-wrap">
+    <h3>Select a shape</h3>
+    <div class="shape-bar ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix" role="toolbar">
+      <label for="shape-circle" class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-checked ui-state-active ui-controlgroup-item ui-checkboxradio-label ui-corner-left"><span class="ui-checkboxradio-icon-space"> </span>Circle</label>
+      <input type="radio" name="shape" id="shape-circle" value="circle" checked="" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="shape-square" class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon-space"> </span>Square</label>
+      <input type="radio" name="shape" id="shape-square" value="square" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="shape-pill" class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon-space"> </span>Pill</label>
+      <input type="radio" name="shape" id="shape-pill" value="pill" class="ui-checkboxradio ui-helper-hidden-accessible">
+      <label for="shape-rectangle" class="ui-button ui-widget ui-checkboxradio-radio-label ui-controlgroup-item ui-checkboxradio-label ui-corner-right"><span class="ui-checkboxradio-icon-space"> </span>Rectangle</label>
+      <input type="radio" name="shape" id="shape-rectangle" value="rectangle" class="ui-checkboxradio ui-helper-hidden-accessible">
+    </div>
+  </div>
+  <div class="toggle-wrap">
+    <h3>Customize</h3>
+    <div class="toggles ui-controlgroup ui-controlgroup-vertical" role="toolbar">
+      <label for="border" class="ui-button ui-widget ui-controlgroup-item ui-checkboxradio-label ui-corner-top"><span class="ui-checkboxradio-icon-space"> </span>Border</label>
+      <input class="toggle ui-checkboxradio ui-helper-hidden-accessible" type="checkbox" name="border" id="border">
+      <label for="background-color" class="ui-button ui-widget ui-checkboxradio-checked ui-state-active ui-controlgroup-item ui-checkboxradio-label ui-corner-bottom"><span class="ui-checkboxradio-icon-space"> </span>Background</label>
+      <input class="toggle brand-toggle ui-checkboxradio ui-helper-hidden-accessible" type="checkbox" name="background-color" id="background-color" checked="">
+    </div>
+  </div>
+  <div class="shape background jquery-ui circle" style="background-color: rgb(0, 128, 0);"></div>
+</div>
+</div>
+</div>
